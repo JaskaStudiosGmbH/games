@@ -12,7 +12,7 @@ pc.script.createLoadingScreen(function (app) {
         splash.style.display = 'none';
 
         var logo = document.createElement('img');
-        logo.src = 'http://mushmushfun.com/wp-content/uploads/2020/06/MUSH_TRIO_LEAFGLIDING_01_4K-2.png';
+        logo.src = 'https://github.com/JaskaStudiosGmbH/games/raw/main/MUSH_TRIO_LEAFGLIDING_01_4K-2.png';
         splash.appendChild(logo);
         logo.onload = function () {
             splash.style.display = 'block';
